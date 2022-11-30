@@ -7,61 +7,50 @@
     <title>Clase 1</title>
 </head>
 <body>
-    <header>cabecera</header>
-    <!-- cabecera -->
-    <nav>navegacion</nav>
-    <!-- barra de navegacion -->
-    <section>Seccion</section>
-    <!-- secciones del sitio -->
-    <aside>aside</aside>
-    <!-- columnnas del sitio -->
-    <article>articulo</article>
-    <!-- articulos  -->
-    <h1>titulo</h1>
-    <!-- titulos h1...h6 -->
-    <p>Lorem ipsum dolor sit amet consectetur <br>
-        adipisicing elit. Architecto consequuntur <br>
-         dolores corporis corrupti! Ad voluptatem <br>
-          deserunt, dolorum libero quo repellendus <br>
-           dolorem ut sed, maiores architecto omnis <br>
-            nostrum quae earum accusantium.</p>
-    <!-- parrafos -->
-    <a href="http://">Vinculo</a>
+    <center>
+    <h2>Formulario</h2>
+    <form action="">
+        <label for="nombre_text">Nombre: </label>
+        <input id="nombre_text" type="text" placeholder="Ingrese su nombre" value="">
+        <!-- Se utiliza label en conjunto con input, usando el mismo identificador para for y para ID para que los click realizados en label sean tomados por input -->
+        <br>
+        <br>
+        <label for="pass_text">Contraseña: </label>
+        <input id="pass_text" type="password" placeholder="Ingrese su contraseña" value="">
+        <br>
+        <br>
+        <label for="correo_text">Correo: </label>
+        <input id="correo_text" type="email" placeholder="Ingrese su correo" value="">
 
-    <ul>
-        <li>Lorem</li>
-        <li>lorem</li>
-        <li>lorem </li>
-        <li>lorem </li>
-        <li>lorem </li>
-    </ul>
-    <!-- lista simple  -->
+        <br>
+        <br>
 
-    <tr>
-        <th2>Mes</th2>
-    </tr>
-    <tr>
-        <th2>Mes</th2>
-    </tr>
-    <tr>
-        <th2>Mes</th2>
-    </tr>
-    <tr>
-        <th2>Mes</th2>
-    </tr>
-    <tr>
-        <th2>Mes</th2>
-    </tr>
-    <!-- Tabla -->
+        <select name="" id="">
+            <option value="">uno</option>
+            <option value="">dos</option>
+            <option value="">tres</option>
+        </select>
 
-    <footer> Esto es un pie de pagina</footer>
+        <br><br>
+        <p>Escoge varios colores</p>
+        <input type="checkbox" name="" id="">
+        <label for="rojo">Rojo</label>
+        <input type="checkbox" name="" id="">
+        <label for="verde">Verde</label>
+        <input type="checkbox" name="" id="">
+        <label for="azul">Azul</label>
+        <br><br>
+        <p>Escoge una sola opcion</p>
+        <input type="radio" name="color" id="">
+        <label for="rojo">Rojo</label>
+        <input type="radio" name="color" id="">
+        <label for="verde">Verde</label>
+        <br><br>
 
-    <audio src="" ></audio>
-    <video src=""></video>
-    <!-- Etiquetas de audio y video basicas  -->
+        <input type="submit" name="" id="">
+        <label for="enviar"></label>
 
-    <iframe src="https://www.youtube.com/embed/_R40HujxUGGo" frameborder="2">Prueb iframe</iframe>
-    <!-- Iframe es una etiqueta que permite incrustar una variedad de diferentes datos dentro de una pagina web -->
-
+    </form>
+    </center>
 </body>
 </html>
